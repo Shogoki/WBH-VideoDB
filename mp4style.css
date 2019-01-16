@@ -1,0 +1,146 @@
+@-webkit-keyframes runningText {
+ 0%   { text-indent: 0% }
+ 100% { text-indent: 100% }
+}
+@keyframes runningText {
+ 0%   { text-indent: 0% }
+ 100% { text-indent: 100% }
+}
+.running {
+ width: 80%;
+ margin: auto;
+ padding: 2px;
+ overflow: hidden;
+ text-align: left;
+ color: #0B610B;
+ white-space: nowrap;
+     animation: runningText 10s linear infinite;
+    -webkit-runningText: marquee 10s linear infinite;
+}
+.running:hover {
+  animation-play-state: paused;
+ -webkit-animation-play-state: paused;
+}
+list {
+	list-style-type: none;
+}
+
+body {
+		padding: 10px;
+		width: 75%;
+		margin: auto;
+		min-width:500px;
+}
+
+h3 { 
+	margin: 0px;
+	margin-bottom:5px;
+	font-size: 200%;
+	text-align:center;
+}
+aside {
+	
+		display: flex;
+		border-style:solid;
+		/*margin-right:5px;*/
+		padding: 10px;
+		flex-flow: column wrap;
+		width: 215px;
+	
+}
+section {
+max-width:100%;
+ 
+ overflow:auto;
+border-style:solid;
+display: flex;
+flex: 1;
+	flex-flow: column wrap;
+		
+}
+#mainweb {
+	display:flex;
+	min-height:400px;
+	flex-direction: row;
+	/*max-width:100%;
+ 
+ overflow:auto;*/
+}
+
+header {
+	display: block;
+	border-style:solid;
+	padding-top: 30px ;
+	
+	background: url("img/movies.png") no-repeat;
+	-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  	background-color: #BDBDBD;
+    
+  
+	text-align:center;
+	
+}
+
+footer {
+	display: block;
+	border-style: solid;
+	clear:both;
+	padding: 5px;
+	background-color: #BDBDBD;
+}
+
+
+.mp4-table {
+
+display: block;
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 115%;
+overflow: auto;
+/*width: 100%;*/
+border-spacing: 2px;
+
+}
+
+.mp4-table th {
+background-color: #0B610B;
+color: white;
+font-weight: normal;
+padding: 10px 20px;
+text-align: center;
+}
+  
+.mp4-table tr {
+background-color: rgb(238, 238, 238);
+color: rgb(111, 111, 111);
+}
+
+.mp4-table tr:nth-of-type(2n)
+{
+background-color: white;
+}
+	
+.mp4-table td
+{
+padding: 5px;
+}
+
+.mp4-table a, .mp4-table a:visited
+{
+color: rgb(111, 111, 111);
+}
+
+.left {
+position: relative;
+left: 0px;
+
+}
+.right {
+float: right;
+position: relative;
+right: 0px;
+
+}

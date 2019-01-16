@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARCHIVE>
+	<VIDEO id="0">
+		<TITLE>Böse Katze</TITLE>
+		<AUTHOR>unbekannter Katzenbesitzer</AUTHOR>
+		<DESCRIPTION>Diese Katze ist das wahre Böse!</DESCRIPTION>
+		<LANGUAGE>International</LANGUAGE>
+		<YEAR>2016</YEAR>
+		<FILENAME>super.evil.cat.mp4</FILENAME>
+	</VIDEO>
+	<VIDEO id="1">
+
+		<TITLE>Secret of a perfect golf swing</TITLE>
+		<AUTHOR>unknown Golfer</AUTHOR>
+		<DESCRIPTION>It is that easy!</DESCRIPTION>
+		<LANGUAGE>Englisch</LANGUAGE>
+		<YEAR>2016</YEAR>
+		<FILENAME>perfect.golf.swing.mp4</FILENAME>
+	</VIDEO>
+	<VIDEO id="2">
+		<TITLE>Bieröffnen mit der Kettensäge</TITLE>
+		<AUTHOR>Der Kettensägen-Öffner</AUTHOR>
+		<DESCRIPTION>Bier-Öffnen wie ein Profi.</DESCRIPTION>
+		<LANGUAGE>International</LANGUAGE>
+		<YEAR>2017</YEAR>
+		<FILENAME>chainsaw.beer.mp4</FILENAME>
+	</VIDEO>
+	<VIDEO id="3">
+		<TITLE>Hamster stellt sich tot.</TITLE>
+		<AUTHOR>unbekannter Hamster-Besitzer</AUTHOR>
+		<DESCRIPTION>Ein Hamster stellt sich tot.</DESCRIPTION>
+		<LANGUAGE>International</LANGUAGE>
+		<YEAR>2017</YEAR>
+		<FILENAME>hamster.playing.death.mp4</FILENAME>
+	</VIDEO>
+	<VIDEO id="4">
+		<TITLE>Big Buck Bunny (TEASER)</TITLE>
+		<AUTHOR>Sacha Goedegebure</AUTHOR>
+		<DESCRIPTION>Ein Ausschnitt aus dem Film Big Buck Bunny.</DESCRIPTION>
+		<LANGUAGE>International</LANGUAGE>
+		<YEAR>2008</YEAR>
+		<FILENAME>big.buck.bunny_teaser.mp4</FILENAME>
+	</VIDEO>
+</ARCHIVE>
